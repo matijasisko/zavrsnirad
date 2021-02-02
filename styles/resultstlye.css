@@ -1,0 +1,20 @@
+.list-container {
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 200px;
+}
+
+.results-display {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.option-container::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+.label-display {
+    margin-top: 2rem;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+}

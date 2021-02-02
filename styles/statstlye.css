@@ -1,0 +1,17 @@
+.list-container {
+    overflow: auto;
+    overflow-x: hidden;
+    max-height: 200px;
+    margin-right: -8px;
+}
+
+.scroll-margin {
+    margin-right: auto!important;
+}
+
+.stats-display {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+

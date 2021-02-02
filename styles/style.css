@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-container {
+    background-color: rgb(225, 6, 0);
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.nav-link:focus {
+    outline: none;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: gray;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.pick-cont {
+    padding-top: 2rem;
+}
+
+.pick-cont a:hover {
+    color: rgb(225, 6, 0) !important;
+}
+
+.selected-something {
+    color: rgb(225, 6, 0) !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .col-md {
+        margin-top: 30px;
+    }
+    .pick-cont {
+        padding-top: 0;
+    }
+}
